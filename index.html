@@ -3,50 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Achmad Fadil</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portofolio Achmad Fadil Nur Ramdhani</title>
 </head>
 <body>
     <header>
-        <h1>ACHMAD FADIL HOT NEWS</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Achmad Fadil Nur Ramdhani</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Berita Terbaru</a></li>
-            <li><a href="#">Kategori</a></li>
-            <li><a href="#">Kontak</a></li>
-        </ul>
-    </nav>
-    <div class="isi">
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li><a href="#">Postingan Terakhir</a></li>
-                <li><a href="#">Postingan Viral</a></li>
-            </ul>
-            <h2>Informasi Penting</h2> <br>
-            <p>Ini adalah sidebar dengan beberapa informasi penting.</p>
-        </div>
-        <div class="content">
-            <h2>Pelajar Indonesia Terkena Virus Jambu Muda</h2> <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi natus consectetur deleniti voluptates laboriosam tenetur voluptatem mollitia ipsum aspernatur laudantium et esse dolores magni non, suscipit necessitatibus nemo sint enim officia quis totam minima deserunt. At, aut. Quaerat aperiam natus est, inventore minima ab necessitatibus dolores, voluptates tenetur tempora numquam laboriosam hic fugit dignissimos iure reiciendis atque! Facilis, obcaecati!</p>
-            <br><h2>Kecanduan Mobile Legends Semakin Marak</h2> <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores soluta optio esse qui itaque aut molestias ipsum natus voluptas, suscipit quis laborum harum enim. Temporibus labore reiciendis architecto pariatur consequuntur accusantium consequatur maiores harum, officia laborum dignissimos atque minus ipsam est nesciunt debitis nulla? Fugit corporis natus accusantium. Laboriosam non recusandae cum ipsa consectetur, voluptas, ipsam praesentium maiores accusamus modi doloribus assumenda, ipsum sit omnis atque? Corporis recusandae quasi deserunt inventore voluptatem neque, incidunt harum quos quod tempore aut? </p>
-        </div>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hi, my name is Achmad Fadil Nur Ramdhani. I am a student at SMK Negeri 1 Cimahi. I have been involved in several roles, including:</p>
+                <ul>
+                    <li>Coordinator of the OSIS Student Council</li>
+                    <li>Secretary of the English Club</li>
+                    <li>Secretary of the FDI Division</li>
+                    <li>Coordinator of the Secretariat of the 2nd Bidang</li>
+                    <li>Chairman of the Babul Jannah Learning Council</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">OSIS Student Council</h5>
+                                <p class="card-text">Coordinator of the OSIS Student Council</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">English Club</h5>
+                                <p class="card-text">Secretary of the English Club</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">FDI Division</h5>
+                                <p class="card-text">Secretary of the FDI Division</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
-    <footer>
-        <p>Hak Cipta &copy; 2023 Achmad</p>
+</section>
+<p>&copy; 2024 Achmad Fadil Nur Ramdhani. All rights reserved.</p>
+        </div>
     </footer>
-    <script>
-        function toggleNav() {
-            var menu = document.querySelector('nav ul');
-            if (menu.style.display === 'flex') {
-                menu.style.display = 'none';
-            } else {
-                menu.style.display = 'flex';
-            }
-        }
-    </script>  
+
+    <!-- JavaScript dependencies (jQuery, Popper.js, Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
